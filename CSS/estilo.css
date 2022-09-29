@@ -14,3 +14,12 @@ h1[title] {
 h2+h3 {
     color: rgb(255, 255, 255);
 }
+p {
+    color: greenyellow;
+}
+
+ul {
+    /*position:fixed (300, 300, 42, 300);*/
+    /*display:table-column-group;*/
+    color:antiquewhite;
+}
