@@ -6,9 +6,8 @@ color:rgb(165, 157, 42);
 body {
     background-color: black;
 }
-/* Esto es un comentario
+/* Esto es un selector de un h1 con un atributo "title" */
 h1[title] {
     font-size: 24px;
     color: red;
 }
-*/
