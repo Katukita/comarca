@@ -23,6 +23,7 @@ ul {
     /*display:table-column-group;*/
     color:antiquewhite;
 }
+/* Aquí usamos un selector de un identificador que hemos puesto en un elemento h1*/
 #ele {
     color:rgb(100, 86, 5);
 }
