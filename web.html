@@ -4,28 +4,23 @@
 
         <link rel="stylesheet" href="CSS/estilo.css">
             <script src="JS/java.js"></script>
-
-        <!-- Include Handlebars from a CDN -->
-            <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-            <script>
-                // compile the template
-                    var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
-                // execute the compiled template and print the output to the console
-                    console.log(template({ doesWhat: "rocks!" }));
-            </script>
+            
 
     </head>
     <body>
+        
 
-            <h1>The Element Object</h1>
+            <h1 id="ele">The Element Object</h1>
+            <script>document.querySelector("h1").style.backgroundColor = "rgb(0, 204, 255)";</script>
             <h2>The appendChild() Method</h2>
 
                 <ul id="myList">
                     <li>Coffee</li>
                     <li>Tea</li>
                 </ul>
-
+                
             <p>Click "Append" to append an item to the end of the list:</p>
+            <script>document.querySelector("p").style.backgroundColor = "red";</script>
 
             <button onclick="myFunction()">Append</button>
 
