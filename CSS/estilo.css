@@ -14,7 +14,7 @@ h1[title] {
 h2+h3 {
     color: rgb(255, 255, 255);
 }
-p {
+p, div{
     color: greenyellow;
 }
 
@@ -26,4 +26,11 @@ ul {
 /* Aquí usamos un selector de un identificador que hemos puesto en un elemento h1*/
 #ele {
     color:rgb(100, 86, 5);
+}
+span {
+    background-color: greenyellow;
+    /*color: black !important;*/
+}
+.inline {
+    color:floralwhite;
 }
